@@ -1,0 +1,45 @@
+{
+  "name": "rick-and-morty-frontend-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "dependencies": {
+    "@craco/craco": "^6.1.1",
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "clsx": "latest",
+    "craco-alias": "^2.1.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "latest",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.0.5",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
